@@ -3,6 +3,7 @@ import React from "react";
 import { Input, Button } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 import axios from "axios";
+import reactDom from "react-dom";
 
 class SearchBar extends React.Component {
   state = { term: "" };
